@@ -60,7 +60,7 @@ ul li {
     padding: 8px 5px;
     background-color: #ecf0f3;
     box-shadow: 1rem 1rem 1rem  #d3dae7, 
-    -0.5rem -0.5rem 0.5rem  #ffffff;
+    -0.5rem -0.5rem 0.5rem  #d3dae7;
     border-radius: 10px;
 }
 .footer button {
