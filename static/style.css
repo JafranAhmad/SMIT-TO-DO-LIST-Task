@@ -1,0 +1,141 @@
+
+body {
+    background-color: #ecf0f3;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.todo {
+    width: 40%;
+    margin-top: 20px;
+    background-color: #ecf0f3;
+    box-shadow: 1rem 1rem 1rem #d3dae7, -1rem -1rem 1rem #fff;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ecf0f3;
+}
+.todo .head, .todo .input-field, .todo .list, .todo .footer {
+    width: 80%;
+    margin: auto;
+}
+.todo .input-field {
+    display: flex;
+    justify-content: space-between;
+    background: #ecf0f3;
+    box-shadow: 1rem 1rem 1rem  #d3dae7, 
+                -1rem -1rem 1rem  #ffffff;
+}
+.input-field input {
+    padding: 7px 2px;
+    width: 76%;
+    outline: none;
+    background-color: #ecf0f3;
+}
+.input-field input:focus {
+    border-color: blueviolet;
+}
+.input-field button {
+    padding: 7px;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: #ffffff;
+}
+ul {
+    width: 98%;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+ul li {
+    background-color: rgb(214, 211, 211);
+    width: 100%;
+    padding: 8px 5px;
+    margin: 8px 0;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    background-color: #ecf0f3;
+    box-shadow: 1rem 1rem 1rem  #d3dae7, 
+    -0.5rem -0.5rem 0.5rem  #ffffff;
+    border-radius: 10px;
+}
+.footer button {
+    padding: 8px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+@media only screen and (max-width: 1073px) {
+    .todo .head, .todo .input-field, .todo .list, .todo .footer {
+        width: 85%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .todo {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 905px) {
+    .todo {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 855px) {
+    .todo {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 751px) {
+    .todo {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 705px) {
+    .todo {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 635px) {
+    .todo {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 605px) {
+    .todo {
+        width: 80%;
+    }
+    .footer button {
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .todo {
+        width: 90%;
+    }
+  
+}
+@media only screen and (max-width: 475px) {
+    .todo {
+        width: 95%;
+    }
+    .input-field input {
+        width: 73%;
+    }
+    .input-field input::placeholder {
+      font-size: 12px;
+    }
+   
+}
+@media only screen and (max-width: 410px) {
+    .input-field input {
+        width: 70%;
+    }
+   
+}

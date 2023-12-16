@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="todo">
+        <div class="head">
+            <h2>Task List 2023</h2>
+        </div>
+        <div class="input-field">
+            <input type="text" id="inp" placeholder="What do you have planned Today?">
+            <button id="addBtn">Add Task</button>
+        </div>
+        <div class="list">
+            <h3>Task</h3>
+
+            <ul id="u-l">
+                <!-- List will be added dynamically -->
+            </ul>
+        </div>
+
+        <div class="footer">
+            <span>You have <span class="pending">0</span> pending tasks!</span>
+            <button id="clearAll">Clear All</button>
+        </div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
